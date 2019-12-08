@@ -5,7 +5,7 @@ deplete stock from the store's inventory. The customer View option has only been
 
 A total of six figures have been generated in order to show how the app works, etc as follow:
 
- - Figure 1 shows the database called bamazom.sql created in MySQLWorkbench application. Please note that initial inventory is 
+ - Figure 1 shows the database called bamazom.sql created in MySQLWorkbench application. Please note that the initial inventory is 
    also shown.
    
  - Figure 2 shows the first results when running the app. As you can see the initial table called products is shown, also the 
