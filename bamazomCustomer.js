@@ -1,7 +1,8 @@
-
+// the npm packages used
 const mysql = require("mysql");
 const inquirer = require("inquirer");
 
+// creating the connection with the sql database
 const connection = mysql.createConnection({
   host: "localhost",
 
@@ -11,17 +12,19 @@ const connection = mysql.createConnection({
   // my username
   user: "root",
 
-  // Your password
+  // my password and name of the sql database
   password: "Toronbolo777",
   database: "bamazon"
 });
 
+// connecting with the sql server and sql database
 connection.connect(function (err) {
   if (err) throw err;
   console.log("PLEASE SEE BELOW YOUR LIST OF PRODUCTS AVAILABLE");
   afterConnection();
 });
 
+// 
 function afterConnection() {
   connection.query("SELECT item_id,product_name,deparment_name, price, stock_quantity FROM products", function (err, res) {
     if (err) throw err;
@@ -33,6 +36,7 @@ function afterConnection() {
   });
 };
 
+//function that ask the questions to the customer
 function customerRequest() {
 
   inquirer
@@ -54,7 +58,7 @@ function customerRequest() {
     then(function (inquirerResponse) {
       console.log("YOUR ORDER HAS BEEN PLACED")
 
-      //Variables that reflect the customer's anwers
+      //Variables that reflect the customer's selection
 
       var productIDSelected = inquirerResponse.idSelected;
       var productQuantitySelected = inquirerResponse.quantitytobePurchased;
@@ -69,12 +73,14 @@ function customerRequest() {
           if (err) throw err;
 
           if (productQuantitySelected > res[0].stock_quantity) {
+            //case where there is not enough item's selected in stock
             console.log("THERE IS INSUFFICIENT QUANTITY");
             morePurchase();
           }
           else {
             console.log("YOUR ORDER HAS BEEN PROCESSED");
 
+            //UPDATING SQL DATABASE
             var totalCost = parseFloat(res[0].price * productQuantitySelected);
 
             var newStock = res[0].stock_quantity - productQuantitySelected;
@@ -109,6 +115,7 @@ function customerRequest() {
     });
 }
 
+//FUNCTION THAT ASK THE CUSTOMER IF HE/SHE/THEY WANT TO CONTINUE SHOPPING WITH BAMAZOM
 function morePurchase() {
   inquirer.prompt(
 
