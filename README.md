@@ -19,6 +19,6 @@ A total of six figures have been generated in order to show how the app works, e
    quantity please note that is now 36 and 24 for item #2 and item #4 respectively (their inital value were 50 and 25).
    
  - Figure 6 shows the results when there is not stock available of the item's selected by the customer. Please note that 
-   has the option of continue shopping with bamazom store.
+   has the option of continue shopping with bamazom store as well.
    
    
