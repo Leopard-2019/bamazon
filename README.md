@@ -16,7 +16,7 @@ A total of six figures have been generated in order to show how the app works, e
  - Figure 4 shows  the results when the customer has decided to stop shopping in bamazom store.
  
  - Figure 5 shows the updated inventory of the bamazon store, where the table called products shows a balance of the stock
-   quantity please note that is 36 and 24 for item #2 and item #4 respectively.
+   quantity please note that is now 36 and 24 for item #2 and item #4 respectively (their inital value were 50 and 25).
    
  - Figure 6 shows the results when there is not stock available of the item's selected by the customer. Please note that 
    has the option of continue shopping with bamazom store.
