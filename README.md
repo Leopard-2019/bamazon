@@ -1,7 +1,7 @@
 Node.js & MySQL
 
-In this assignment a Amazon-like storefront with MySQL skills is created. The app will take in orders from customers and 
-deplete stock from the store's inventory.
+In this assignment a Amazon-like storefront with MySQL skills is created. The app takes in orders from customers and 
+deplete stock from the store's inventory. The customer View option has only been built in this assignment,
 
 A total of six figures have been generated in order to show how the app works, etc as follow:
 
@@ -9,8 +9,8 @@ A total of six figures have been generated in order to show how the app works, e
    also shown.
    
  - Figure 2 shows the first results when running the app. As you can see the initial table called products is shown, also the 
-   results when an order has been placed and processed. A customized summary of the order is also shown, with the option of continue
-   shopping with bamazom.
+   results when an order has been placed and processed. A customized summary of the order is also shown, with the option of   
+   continue shopping with bamazom.
    
  - Figure 3 shows the results when the customer has decided to purchase another item from bamazom store.
    
