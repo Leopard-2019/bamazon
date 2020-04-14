@@ -1,6 +1,6 @@
 # Node.js & MySQL app #
 
-A Amazon-like storefront with MySQL skills is created. The app takes in orders from customers and 
+An Amazon-like storefront with MySQL skills is created. The app takes in orders from customers and 
 deplete stock from the store's inventory. The customer View option has only been built in this assignment,
 
 A total of six figures have been generated in order to show how the app works, etc as follow:
