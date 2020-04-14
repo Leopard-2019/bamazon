@@ -30,4 +30,4 @@ A total of six figures have been generated in order to show how the app works, e
  - Figure 6 shows the results when there is not stock available of the item's selected by the customer. Please note that 
    has the option of continue shopping with bamazom store as well.
    
-   
+     ![](images/Figure6_bamazom.jpeg)
