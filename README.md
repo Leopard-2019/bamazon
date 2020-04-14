@@ -12,12 +12,20 @@ A total of six figures have been generated in order to show how the app works, e
  - Figure 2 shows the first results when running the app. As you can see the initial table called products is shown, also the 
    results when an order has been placed and processed. A customized summary of the order is also shown, with the option of continue shopping with bamazom store.
    
+    ![](images/Figure2_bamazom.jpeg)
+   
  - Figure 3 shows the results when the customer has decided to purchase another item from bamazom store.
+ 
+  ![](images/Figure3_bamazom.jpeg)
    
  - Figure 4 shows  the results when the customer has decided to stop shopping in bamazom store.
  
+  ![](images/Figure4_bamazom.jpeg)
+ 
  - Figure 5 shows the updated inventory of the bamazon store, where the table called "products" shows a balance of the stock
    quantity please note that is now 36 and 24 for item #2 and item #4 respectively (their inital value were 50 and 25).
+   
+    ![](images/Figure5_bamazom.jpeg)
    
  - Figure 6 shows the results when there is not stock available of the item's selected by the customer. Please note that 
    has the option of continue shopping with bamazom store as well.
